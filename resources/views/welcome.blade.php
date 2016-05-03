@@ -21,6 +21,28 @@
 			</div>
 		</form>
 	</div>	
+	<div class="container">
+	@if(isset($users))
+	<h2>Sample User details</h2>
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach($users as $dummy)
+				<tr>
+					<td>{{$dummy->name}}</td>
+					<td>{{$dummy->email}}</td>
+				</tr>
+				@endforeach
+
+			</tbody>
+		</table>
+		{!! $users->render() !!}@endif
+	</div>
 		<div class="container">
 			@if(isset($details))
 			<p> The Search results for your query <b> {{ $query }} </b> are :</p>
@@ -41,6 +63,7 @@
 					@endforeach
 				</tbody>
 			</table>
+			
 			@if($details){!! $details->render() !!}@endif
 			@elseif(isset($message))
 			<p>{{ $message }}</p>
