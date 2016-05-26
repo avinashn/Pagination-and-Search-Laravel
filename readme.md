@@ -16,5 +16,5 @@
 You can see the demo of the project <a href="http://justlaravel.com/demos/pagination-and-search/">here</a>
 
 ## Reference Post
-<a href=" http://justlaravel.com/paginated-data-search-laravel/">http://justlaravel.com/search-functionality-laravel/
+<a href="http://justlaravel.com/paginated-data-search-laravel/">http://justlaravel.com/paginated-data-search-laravel/
 </a>
