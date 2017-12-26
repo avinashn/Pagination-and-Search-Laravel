@@ -13,7 +13,7 @@
 </ul>
 
 ## Working Demo
-You can see the demo of the project <a href="http://justlaravel.com/demos/pagination-and-search/">here</a>
+You can see the demo of the project <a href="http://demos.justlaravel.com/demos/pagination-and-search/">here</a>
 
 ## Reference Post
 <a href="http://justlaravel.com/paginated-data-search-laravel/">http://justlaravel.com/paginated-data-search-laravel/
